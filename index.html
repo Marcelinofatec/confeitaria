@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>SUELI CONFEITARIA</title>
+</head>
+<body>
+    
+    <header>
+        
+        <nav id="navbar">
+            <div class="logo">
+                <img src="src/images/sueli.png">
+            </div>
+         
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <div class="container">
+                <a href="https://wa.me/5511959099723" class="whatsapp-button" target="_blank" aria-label="Abrir WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                    Peça aqui
+                </a>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+         
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                   
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+
+                <p class="description">
+                    Confeitaria tem um toque espeial. É um prato unico com recheio, formato ou gosto pessoal do cliente. 
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+5511959099723" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11) 959099723
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/5511959099723" class="whatsapp-button" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/rosquinha.png" >
+           
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos produtos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/pao.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Pão de forma é um produto obtido a partir da massa, doce ou salgada, da farinha de trigo, assada. 
+                    </h3>
+
+                    <span class="dish-description"> 
+                    </span>
+                   
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/bolo.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Os bolos são peças-chave na confeitaria e podem ser feitos a partir de diversos recheios, massas e coberturas.
+
+                    <span class="dish-description">
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/bololaranja.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        O bolo de laranja fofinho é uma receita simples e fácil de preparar. A massa do bolo é leve e feita com apenas 5 ingredientes.
+                    </h3>
+
+                    <span class="dish-description">
+                        
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/rosquinha.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Donuts são doces versáteis com diferentes opções de coberturas e recheios.
+                    </h3>
+
+                    <span class="dish-description">
+                       
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$25,00Kg</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chefsuely.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                             Rute
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                “Produtos com qualidade tudo fresquinho e muito gostoso parabéns Sueli."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                               Dona Rosa
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                “Achei incrível muito bom mesmo seus produtos super recomendo". 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h1>Elogios em Tempo Real</h1>
+                    <form id="elogioForm">
+                    <input type="text" id="nome" placeholder="Seu nome" required>
+                    <textarea id="elogio" placeholder="Escreva seu elogio" required></textarea>
+                    <button type="submit">Enviar Elogio</button>
+                    
+                    </form>
+                    <div id="elogiosContainer">
+                      
+                        <ul id="listaElogios"></ul>
+                    </div>
+                </div>
+
+               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 André Marcelino
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+    
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
